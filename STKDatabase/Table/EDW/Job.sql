@@ -1,0 +1,9 @@
+﻿CREATE TABLE [EDW].[Job]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+    [JobNo] NVARCHAR(50) NULL, 
+    [JobTitle] NVARCHAR(500) NULL, 
+    [JobQuantity] DECIMAL(15, 6) NULL, 
+	[Item] NVARCHAR(200) NULL,
+    [Status] NVARCHAR(50) NULL
+)

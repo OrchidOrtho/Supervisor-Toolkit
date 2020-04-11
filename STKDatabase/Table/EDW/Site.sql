@@ -1,0 +1,6 @@
+﻿CREATE TABLE [EDW].[Site]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+    [SiteCode] NVARCHAR(5) NOT NULL, 
+    [SiteName] NVARCHAR(500) NOT NULL
+)

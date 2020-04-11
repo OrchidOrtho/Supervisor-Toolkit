@@ -1,0 +1,5 @@
+﻿CREATE TABLE [EDW].[ReasonCodeType]
+(
+	[Id] INT NOT NULL PRIMARY KEY,
+	[ReasonCodeType] NVARCHAR(200) NULL
+)
