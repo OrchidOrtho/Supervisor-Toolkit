@@ -77,6 +77,8 @@
     <Build Include="Table\HxH\HourbyHourEntry.sql" />
     <Build Include="Table\EDW\Job.sql" />
     <Build Include="Table\HxH\HourbyHourEntryReason.sql" />
+    <Build Include="Table\EDW\JobRoute.sql" />
+    <Build Include="Table\EDW\WorkStation.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="STKDatabase.publish.xml" />
