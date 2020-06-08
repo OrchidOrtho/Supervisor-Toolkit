@@ -6,6 +6,7 @@
 	[AssetType] NVARCHAR(200) NULL, 
     [DepartmentId] INT NULL, 
     [WorkCenterId] INT NULL, 
+    [OperationId] INT NULL, 
     CONSTRAINT [FK_Asset_ToDepartment] FOREIGN KEY ([DepartmentId]) REFERENCES [EDW].[Department]([Id]), 
     CONSTRAINT [FK_Asset_ToWorkCenter] FOREIGN KEY ([WorkCenterId]) REFERENCES [EDW].[WorkCenter]([Id])
 
